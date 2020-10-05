@@ -7,7 +7,17 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.List;
+
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>{
+
+    private List<String> recipeTitles;
+    private List<String> recipeDescription;
+
+    public RecyclerViewAdapter(List<String> recipeTitles, List<String> recipeDescription) {
+        this.recipeTitles = recipeTitles;
+        this.recipeDescription = recipeDescription;
+    }
 
     @NonNull
     @Override

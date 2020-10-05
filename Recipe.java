@@ -15,6 +15,8 @@ public class Recipe extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.recipe);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         TextView recipeIngredients = findViewById(R.id.recipeIngredients);
         TextView recipeMethods = findViewById(R.id.recipeMethods);
 
@@ -23,12 +25,14 @@ public class Recipe extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
         if(extras != null) {
-            ingredients = extras.getString("ingredients");
-            methods = extras.getString("method");
+            ingredients = getIntent().getStringExtra("ingredients");
+            methods = getIntent().getStringExtra("methods");
+
+            recipeIngredients.setText(ingredients);
+            recipeMethods.setText(methods);
         }
 
-        recipeIngredients.setText(ingredients);
-        recipeMethods.setText(methods);
+
 
     }
 

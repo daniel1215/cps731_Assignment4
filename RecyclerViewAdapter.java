@@ -1,7 +1,5 @@
 package com.example.seongjoon_chung_cps731_500503264_assignment4_redo;
 
-import android.content.Context;
-import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,12 +15,12 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     private List<String> recipeTitles;
     private List<String> recipeDescription;
 
-    private RecipeDetails[] recipeDetails;
+    private RecyclerViewClickListener listener;
 
-    public RecyclerViewAdapter(List<String> recipeTitles, List<String> recipeDescription, RecipeDetails[] recipeDetails) {
+    public RecyclerViewAdapter(List<String> recipeTitles, List<String> recipeDescription, RecyclerViewClickListener listener) {
         this.recipeTitles = recipeTitles;
         this.recipeDescription = recipeDescription;
-        this.recipeDetails = recipeDetails;
+        this.listener = listener;
     }
 
     @NonNull
@@ -47,7 +45,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         return recipeTitles.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
         TextView recipeTitle;
         TextView recipeDescription;
@@ -56,7 +54,17 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             super(itemView);
             recipeTitle = itemView.findViewById(R.id.recipeTitle);
             recipeDescription = itemView.findViewById(R.id.recipeDescription);
+            itemView.setOnClickListener(this);
 
         }
+
+        @Override
+        public void onClick(View view) {
+            listener.onClick(view, getAdapterPosition());
+        }
+    }
+
+    public interface RecyclerViewClickListener {
+        void onClick(View view, int position);
     }
 }

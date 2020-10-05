@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
     private List<String> recipeTitles;
     private List<String> recipeDescription;
-
     private List<RecipeDetails> recipeDetails;
+
     private RecyclerViewAdapter.RecyclerViewClickListener listener;
 
     @Override
@@ -32,9 +32,12 @@ public class MainActivity extends AppCompatActivity {
 
         recipeTitles = new ArrayList<>();
         recipeDescription = new ArrayList<>();
+        recipeDetails = new ArrayList<>();
+
+        setOnClickListener();
 
         recyclerView = findViewById(R.id.recyclerView);
-        recyclerViewAdapter = new RecyclerViewAdapter(recipeTitles, recipeDescription, recipeDetails, listener);
+        recyclerViewAdapter = new RecyclerViewAdapter(recipeTitles, recipeDescription, listener);
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(recyclerViewAdapter);
@@ -44,9 +47,9 @@ public class MainActivity extends AppCompatActivity {
 
         addTitles();
         addDescription();
-        addRecipeDetails();
+       addRecipeDetails();
 
-        setOnClickListener();
+
 
 
     }
@@ -93,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
                 "\n" +
                 "4 Toss with parsley, lemon juice, pepper: Remove the pan from the heat. Sprinkle the shrimp with parsley, lemon juice, and black pepper, and toss to combine.\n" +
                 "\n" +
-                "Serve as is, or with crusty bread, over pasta, or over rice (for gluten-free version).\n", R.drawable.f1);
+                "Serve as is, or with crusty bread, over pasta, or over rice (for gluten-free version).\n");
 
         RecipeDetails recipe2 = new RecipeDetails("INGREDIENTS\n" +
                 "1 (12-14-inch) English cucumber, cut into 1-inch chunks\n" +
@@ -123,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
                 "\n" +
                 "A plate of peach and cucumber salad with a black pepper and basil vinaigrette pooling on the plate.\n" +
                 "\n" +
-                "Hello! All photos and content are copyright protected. Please do not use our photos without prior written permission. Thank you!", R.drawable.f2);
+                "Hello! All photos and content are copyright protected. Please do not use our photos without prior written permission. Thank you!");
         RecipeDetails recipe3 = new RecipeDetails("INGREDIENTS\n" +
                 "2-4 boneless, skinless chicken breast halves (1 1/2 pound total), or 4-8 chicken cutlets\n" +
                 "1/2 cup flour\n" +
@@ -157,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
                 "\n" +
                 "\n" +
                 "\n" +
-                "Plate the chicken and serve with the sauce poured over the chicken. Sprinkle with parsley.", R.drawable.f3);
+                "Plate the chicken and serve with the sauce poured over the chicken. Sprinkle with parsley.");
         RecipeDetails recipe4 = new RecipeDetails("INGREDIENTS\n" +
                 "1 egg\n" +
                 "1/2 cup room temperature water\n" +
@@ -168,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
                 "\n" +
                 "3 Let the mug sit: Let the cooked egg sit in the mug of hot water for 1 minute, or longer if needed. This helps firm up any soft parts of the egg white, giving you a more evenly poached egg.\n" +
                 "\n" +
-                "4 Drain the egg: Using a spoon or fork, gently lift the egg out of the mug and set it on a slice of stale bread or a paper towel. Sprinkle with salt and pepper, then transfer to your serving plate and enjoy.\n", R.drawable.f4);
+                "4 Drain the egg: Using a spoon or fork, gently lift the egg out of the mug and set it on a slice of stale bread or a paper towel. Sprinkle with salt and pepper, then transfer to your serving plate and enjoy.\n");
         RecipeDetails recipe5 = new RecipeDetails("INGREDIENTS\n" +
                 "1 1/2 to 2 pounds (680 to 900g) salmon fillets\n" +
                 "3 tablespoons honey mustard (1 1/2 tablespoons honey plus 1 1/2 tablespoon Dijon mustard)\n" +
@@ -182,7 +185,7 @@ public class MainActivity extends AppCompatActivity {
                 "\n" +
                 "3 Prep the salmon: Line a roasting pan with aluminum foil. Brush the salmon fillets on both sides with olive oil. Place fillets skin-side down (if your fillets have skin-on) on the foil-lined pan. Use a basting brush to coat the top side of the fillets with the honey mustard mixture.\n" +
                 " \n" +
-                "4 Bake the salmon: Place in oven and bake at 400°F for 8 to 10 minutes, until just barely cooked through (please don't overcook salmon!). It's okay if the salmon is still a little rare in the center, when you remove it from the oven, the residual heat will cook it through.\n", R.drawable.f5);
+                "4 Bake the salmon: Place in oven and bake at 400°F for 8 to 10 minutes, until just barely cooked through (please don't overcook salmon!). It's okay if the salmon is still a little rare in the center, when you remove it from the oven, the residual heat will cook it through.\n");
         RecipeDetails recipe6 = new RecipeDetails("INGREDIENTS\n" +
                 "\n" +
                 "•\t1 1/2 pound flank steak\n" +
@@ -210,7 +213,7 @@ public class MainActivity extends AppCompatActivity {
                 "\n" +
                 "8 Boil juices, deglaze pan, add butter to make sauce: Any juices that come out of the meat while cutting or resting, return to the pan. Return the pan to a burner on high heat and deglaze the pan with a little water, scraping up any browned bits. Once the water has mostly boiled down, add a little butter to the pan for a nice sauce.\n" +
                 "Arrange the cut meat on a serving plate and pour the deglazed pan juices over the meat.\n" +
-                "\n", R.drawable.f6);
+                "\n");
         RecipeDetails recipe7 = new RecipeDetails("INGREDIENTS\n" +
                 "Salt\n" +
                 "4 ounces bow tie (farfalle), linguini, or spaghetti pasta\n" +
@@ -230,7 +233,7 @@ public class MainActivity extends AppCompatActivity {
                 "\n" +
                 "4 Add the drained pasta to the tuna mixture: When the pasta is ready, drain it and add it in to the pan with the tuna. Toss to mix.\n" +
                 "\n" +
-                "Drizzle on a bit more olive oil over it all, then add the chopped parsley and a few grinds of black pepper to taste.", R.drawable.f7);
+                "Drizzle on a bit more olive oil over it all, then add the chopped parsley and a few grinds of black pepper to taste.");
 
         recipeDetails.add(recipe1);
         recipeDetails.add(recipe2);
@@ -239,6 +242,7 @@ public class MainActivity extends AppCompatActivity {
         recipeDetails.add(recipe5);
         recipeDetails.add(recipe6);
         recipeDetails.add(recipe7);
+
     }
 
     private void setOnClickListener() {
@@ -246,7 +250,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view, int position) {
                 Intent intent = new Intent(getApplicationContext(), Recipe.class);
-
+               intent.putExtra("ingredients", recipeDetails.get(position).getRecipeIngredients());
+               intent.putExtra("methods", recipeDetails.get(position).getRecipeMethods());
+                startActivity(intent);
             }
         };
     }

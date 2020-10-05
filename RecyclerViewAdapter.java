@@ -1,5 +1,6 @@
 package com.example.seongjoon_chung_cps731_500503264_assignment4_redo;
 
+import android.content.Context;
 import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,9 +17,12 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     private List<String> recipeTitles;
     private List<String> recipeDescription;
 
-    public RecyclerViewAdapter(List<String> recipeTitles, List<String> recipeDescription) {
+    private RecipeDetails[] recipeDetails;
+
+    public RecyclerViewAdapter(List<String> recipeTitles, List<String> recipeDescription, RecipeDetails[] recipeDetails) {
         this.recipeTitles = recipeTitles;
         this.recipeDescription = recipeDescription;
+        this.recipeDetails = recipeDetails;
     }
 
     @NonNull

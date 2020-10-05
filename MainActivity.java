@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Context;
 import android.os.Bundle;
 
 import java.lang.reflect.Array;
@@ -19,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     private List<String> recipeTitles;
     private List<String> recipeDescription;
 
+    private RecipeDetails[] recipeDetails;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         recipeDescription = new ArrayList<>();
 
         recyclerView = findViewById(R.id.recyclerView);
-        recyclerViewAdapter = new RecyclerViewAdapter(recipeTitles, recipeDescription);
+        recyclerViewAdapter = new RecyclerViewAdapter(recipeTitles, recipeDescription, recipeDetails);
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(recyclerViewAdapter);

@@ -1,0 +1,258 @@
+2020-10-05
+ 12:42	Gradle sync started
+
+ 12:42	Gradle sync finished in 13 s 459 ms
+
+ 12:42	Gradle sync started
+
+ 12:42	Gradle sync finished in 3 s 414 ms
+
+ 1:12	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:12	Gradle build finished in 9 s 619 ms
+
+ 1:13	Install successfully finished in 5 s 60 ms.
+
+ 1:13	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:13	Gradle build finished in 722 ms
+
+ 1:13	Install successfully finished in 661 ms.: App restart successful without requiring a re-install.
+
+ 1:13	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:13	Gradle build finished in 719 ms
+
+ 1:13	Install successfully finished in 764 ms.: App restart successful without requiring a re-install.
+
+ 1:13	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:13	Gradle build finished in 598 ms
+
+ 1:13	Install successfully finished in 155 ms.: App restart successful without requiring a re-install.
+
+ 1:14	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:14	Gradle build finished in 648 ms
+
+ 1:14	Install successfully finished in 221 ms.: App restart successful without requiring a re-install.
+
+ 1:15	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:15	Gradle build finished in 2 s 132 ms
+
+ 1:15	Install successfully finished in 452 ms.
+
+ 1:15	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:15	Gradle build finished in 435 ms
+
+ 1:15	Install successfully finished in 207 ms.: App restart successful without requiring a re-install.
+
+ 1:16	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:16	Gradle build finished in 479 ms
+
+ 1:16	Install successfully finished in 183 ms.: App restart successful without requiring a re-install.
+
+ 1:16	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:16	Gradle build finished in 449 ms
+
+ 1:16	Install successfully finished in 212 ms.: App restart successful without requiring a re-install.
+
+ 1:16	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:16	Gradle build finished in 457 ms
+
+ 1:16	Install successfully finished in 438 ms.
+
+ 1:16	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:16	Gradle build finished in 383 ms
+
+ 1:16	Install successfully finished in 122 ms.: App restart successful without requiring a re-install.
+
+ 1:17	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:17	Gradle build finished in 410 ms
+
+ 1:17	Install successfully finished in 239 ms.: App restart successful without requiring a re-install.
+
+ 1:17	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:18	Gradle build finished in 1 s 74 ms
+
+ 1:18	Install successfully finished in 611 ms.
+
+ 1:18	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:18	Gradle build finished in 509 ms
+
+ 1:18	Install successfully finished in 351 ms.: App restart successful without requiring a re-install.
+
+ 1:18	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:18	Gradle build finished in 1 s 70 ms
+
+ 1:18	Install successfully finished in 331 ms.
+
+ 1:18	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:18	Gradle build finished in 1 s 661 ms
+
+ 1:18	Install successfully finished in 360 ms.
+
+ 1:19	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:19	Gradle build finished in 1 s 68 ms
+
+ 1:19	Install successfully finished in 651 ms.
+
+ 1:19	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:19	Gradle build finished in 875 ms
+
+ 1:19	Install successfully finished in 515 ms.
+
+ 1:19	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:19	Gradle build finished in 901 ms
+
+ 1:19	Install successfully finished in 693 ms.
+
+ 1:21	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:21	Gradle build finished in 1 s 60 ms
+
+ 1:21	Install successfully finished in 301 ms.
+
+ 1:21	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 1:21	Gradle build finished in 884 ms
+
+ 1:21	Install successfully finished in 599 ms.
+
+ 2:11	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 2:11	Gradle build finished in 969 ms
+
+ 2:11	Install successfully finished in 787 ms.
+
+ 2:14	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 2:14	Gradle build finished in 944 ms
+
+ 2:14	Install successfully finished in 806 ms.
+
+ 2:14	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 2:14	Gradle build finished in 1 s 33 ms
+
+ 2:14	Install successfully finished in 618 ms.
+
+ 2:15	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 2:15	Gradle build finished in 795 ms
+
+ 2:15	Install successfully finished in 664 ms.
+
+ 2:16	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 2:16	Gradle build finished in 991 ms
+
+ 2:16	Install successfully finished in 590 ms.
+
+ 2:40	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 2:40	Gradle build finished in 897 ms
+
+ 2:40	Install successfully finished in 871 ms.
+
+ 2:58	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 2:58	Gradle build finished in 2 s 24 ms
+
+ 2:58	Install successfully finished in 849 ms.
+
+ 2:59	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 2:59	Gradle build finished in 821 ms
+
+ 2:59	Install successfully finished in 626 ms.
+
+ 3:00	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 3:00	Gradle build finished in 852 ms
+
+ 3:00	Install successfully finished in 765 ms.
+
+ 3:05	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 3:05	Gradle build finished in 322 ms
+
+ 3:05	Install successfully finished in 270 ms.: App restart successful without requiring a re-install.
+
+ 3:28	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 3:28	Gradle build failed in 1 s 203 ms
+
+ 3:29	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 3:29	Gradle build finished in 981 ms
+
+ 3:29	Session 'app': Changes were not applied.
+				Adding or removing a field requires an app restart.
+				Reinstall and restart app
+
+ 3:29	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 3:29	Gradle build finished in 339 ms
+
+ 3:29	Install successfully finished in 867 ms.
+
+ 3:29	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 3:29	Gradle build finished in 340 ms
+
+ 3:29	Install successfully finished in 127 ms.: App restart successful without requiring a re-install.
+
+ 3:34	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 3:34	Gradle build failed in 311 ms
+
+ 3:36	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 3:36	Gradle build finished in 980 ms
+
+ 3:36	Install successfully finished in 428 ms.
+
+ 3:36	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 3:36	Gradle build finished in 316 ms
+
+ 3:36	Install successfully finished in 129 ms.: App restart successful without requiring a re-install.
+
+ 3:37	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 3:37	Gradle build failed in 1 s 63 ms
+
+ 3:38	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 3:38	Gradle build failed in 365 ms
+
+ 3:39	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 3:39	Gradle build failed in 291 ms
+
+ 3:39	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 3:39	Gradle build finished in 899 ms
+
+ 3:39	Install successfully finished in 461 ms.
+
+ 3:58	Executing tasks: [:app:assembleDebug] in project C:\Users\Daniel\AndroidStudioProjects\Seongjoon_Chung_500503264_Assignment4
+
+ 3:58	Gradle build finished in 360 ms
+
+ 3:58	Install successfully finished in 288 ms.: App restart successful without requiring a re-install.

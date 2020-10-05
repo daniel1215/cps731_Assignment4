@@ -33,12 +33,14 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+        holder.recipeTitle.setText(recipeTitles.get(position));
+        holder.recipeDescription.setText(recipeDescription.get(position));
 
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return recipeTitles.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
